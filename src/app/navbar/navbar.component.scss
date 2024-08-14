@@ -1,0 +1,50 @@
+::ng-deep{
+   .p-menubar{
+        background-color: rgb(57, 165, 236);
+        color: white;
+   } 
+   .p-menuitem-link{
+        color: white;
+   }
+    .p-menuitem-link:hover{
+          background-color: white;
+          color: rgb(59, 56, 56);
+    }
+    .p-menuitem-link:active{
+        background-color: white;
+        color: rgb(59, 56, 56);
+    }
+    .p-menuitem-link:checked{
+        background-color: white;
+        color: rgb(59, 56, 56);
+    }
+   
+    .p-submenu-icon{
+        color: black;
+    }
+    .p-submenu-list{
+        background-color: rgb(57, 165, 236);
+        color: white;
+    }
+
+    @media screen and (max-width: 960px){
+        .p-menubar{
+            background-color: rgb(57, 165, 236);
+            color: white;
+        } 
+        .p-menuitem-link{
+            color: black;
+        }
+        .p-menuitem-link:hover{
+            background-color: white;
+            color: rgb(59, 56, 56);
+        }
+        .p-submenu-icon{
+            color: black;
+        }
+        .p-submenu-list{
+    background-color: white;
+    color: black;
+        }
+    }
+}
